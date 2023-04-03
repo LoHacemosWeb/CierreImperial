@@ -1,0 +1,85 @@
+html{
+    background-image: url(fondo.jpg);
+    background-repeat: repeat;
+    background-color: #020923;
+    color: rgb(0, 0, 0);
+}
+.Contenido {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: -1;
+}
+#logo{
+    margin-bottom: 20px;
+}
+#Foto{
+    background-image: url(/Foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #020923;
+}
+#Texto{
+    background-image:url(/FondoEmpresa.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    font: 600 16px/31px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+#Firma{
+    font: 600 16px/31px "Open Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#maintenance {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#maintenance h1 {
+    font: 600 28px/34px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #474747;
+    padding: 0 0 14px 0;
+    margin: 0 0 19px 0;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer{
+    margin-top: 14px;
+    border-top: 1px solid #474747;
+    font: 50 12px/24px "Open Sans", sans-serif bold;
+    text-align: center;
+}
+@media only screen and (max-width : 599px) {
+    img{
+        width: 95%;
+    }
+}
+@media only screen and (max-width : 768px) {
+    #maintenance{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 375px) {
+    #maintenance #message {
+        font-size: small;
+    }
+}
