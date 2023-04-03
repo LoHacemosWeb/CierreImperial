@@ -17,14 +17,14 @@ html{
     margin-bottom: 20px;
 }
 #Foto{
-    background-image: url(/Foto.jpg);
+    background-image: url(Foto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border: 1px solid #020923;
 }
 #Texto{
-    background-image:url(/FondoEmpresa.jpg);
+    background-image:url(FondoEmpresa.jpg);
     background-size:contain;
     background-position: center;
     background-repeat:no-repeat;
